@@ -12,7 +12,10 @@
 					"*.md": "vscode.markdown.preview.editor"
 				}
 			},
-			"extensions": ["learn-pack.learnpack-vscode"]
+			"extensions": [
+				"learn-pack.learnpack-vscode",
+				"ritwickdey.LiveServer"
+			]
 		}
 	},
 
