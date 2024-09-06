@@ -1,19 +1,21 @@
-
 body {
 	background: black;
 	font-family: "Jim Nightshade", cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .postcard {
 	font-size: large;
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin:auto;
+	margin: auto;
 }
 .postcard-header {
-	margin-top:none;
+	margin-top: none;
 	padding: 0;
-	font-size:large;
+	font-size: large;
 	display: flex;
 }
 .postcard-header img {
@@ -33,7 +35,7 @@ body {
 	display: flex;
 }
 .body-left p:first-child {
-	margin-top:none;
+	margin-top: none;
 }
 .body-left,
 .body-right {
@@ -46,8 +48,8 @@ input {
 	border-left: none;
 	border-right: none;
 }
-input:empty{
-	color:rgb(47, 153, 210);
+input:empty {
+	color: rgb(47, 153, 210);
 }
 .postcard-footer {
 	text-align: center;
